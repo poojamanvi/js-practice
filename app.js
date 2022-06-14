@@ -201,6 +201,35 @@ if(Discriminant >= 0){
 // Division = First
 /* Your answer here
 */
+let RollNo,Name, Physics, Chemistry,Computer_Application,total_marks, Percentage,Division
+RollNo = 784
+Name = "James"
+Physics =70
+ Chemistry=80
+ Computer_Application=90
+ total_marks= (Physics + Chemistry + Computer_Application )
+  Percentage= (total_marks*100)/300
+  Division=" first"
+
+
+  if(RollNo = 784){
+      console.log("Roll No : 784")
+      console.log("Name of Student : James")
+      console.log("Marks in Physics : 70")
+      console.log("Marks in Chemistry : 80")
+      console.log("Marks in Computer Application : 90")
+      console.log("Total Marks = ",total_marks )
+      console.log("Percentage  = ", Percentage )
+
+      if( Percentage >= 60 &&  Percentage <= 80){
+          console.log("Division = First")
+      }else{
+        console.log("Not Defind")
+      }
+
+ }else{
+     console.log("Not Defind")
+ }
 // 13. Write a program to read temperature in centigrade and display a suitable message according to temperature state below :
 // Temp < 0 then Freezing weather
 // Temp 0-10 then Very Cold weather
@@ -214,6 +243,24 @@ if(Discriminant >= 0){
 // Its very hot.
 /* Your answer here
 */
+let temp = 42
+if(temp <0){
+    console.log(" Freezing weather")
+} else if(temp>=0 && temp<=10){
+    console.log(" Very Cold weather")
+}else if(temp>10 && temp<=20){
+    console.log(" Cold weather")
+}else if(temp>20 && temp<=30){
+    console.log("Normal in Temp")
+}else if(temp>30 && temp<40){
+    console.log("Its Hot")
+}else if (temp >=40){
+    console.log("Its Very Hot")
+}else{
+    console.log("Not Defind")
+}
+
+
 // 14. Write a program to check whether a triangle is Equilateral, Isosceles or Scalene.
 // Test Data :
 // 50 50 60
@@ -221,13 +268,38 @@ if(Discriminant >= 0){
 // This is an isosceles triangle.
 /* Your answer here
 */
+ a = 50
+ b = 50
+ c = 60
+
+ if((a==b && b==c && c==a) && (a!=0 && b!=0 && c!=0)){
+     console.log("Equilateral Triangle")
+ }else if((a==b || b==c ||c==a) && (a!=0 && b!=0 && c!=0)){
+    console.log("Isosceles Triangle")
+}else if((a!=b || b!=c ||c!=a) && (a!=0 && b!=0 && c!=0)){
+    console.log("Scalene Triangle")
+}else{
+    console.log("Not a Triangle") 
+}
+
+
+
 // 15. Write a program to check whether a triangle can be formed by the given value for the angles.
 // Test Data :
 // 40 55 65
 // Expected Output :
 // The triangle is not valid.
 /* Your answer here
+
 */
+ a = 40
+ b = 55
+ c = 65
+ if(a+b+c==180){
+    console.log("The triangle is valid.") 
+ }else{
+    console.log("The triangle is not valid.") 
+ }
 // 16. Write a program to check whether a character is an alphabet, digit or special character.
 // Test Data :
 // @
