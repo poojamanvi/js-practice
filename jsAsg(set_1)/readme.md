@@ -1,2 +1,2 @@
 <h1>Output<h1>
-<img src="question-1.PNG" alt="img">
+<img src="/image/question-1.PNG" alt="img">
