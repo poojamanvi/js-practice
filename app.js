@@ -374,233 +374,242 @@ if(sell>buy){
 // Net Amount Paid By the Customer : 1840.00
 /* Your answer here
 */
-let ElectricityUnit,BillAmount;
-ElectricityUnit = 800;
+// let ElectricityUnit,BillAmount;
+// ElectricityUnit = 800;
 
-if(ElectricityUnit <= 199){
-    console.log(BillAmount=ElectricityUnit*1.20)
-}else if(ElectricityUnit>=200 && ElectricityUnit<400){
-    console.log(BillAmount= 199*1.20 + (ElectricityUnit - 199)*1.50)
-}else if(ElectricityUnit>=400 && ElectricityUnit<600){
-    console.log(BillAmount= 199*1.20 + 200*1.50 + (ElectricityUnit - 399)*1.80)
-}else if(ElectricityUnit>=600 ){
-    console.log(BillAmount= 199*1.20 + 200*1.50 +200*1.80 + (ElectricityUnit - 599)*2)
+// if(ElectricityUnit <= 199){
+//     console.log(BillAmount=ElectricityUnit*1.20)
+// }else if(ElectricityUnit>=200 && ElectricityUnit<400){
+//     console.log(BillAmount= 199*1.20 + (ElectricityUnit - 199)*1.50)
+// }else if(ElectricityUnit>=400 && ElectricityUnit<600){
+//     console.log(BillAmount= 199*1.20 + 200*1.50 + (ElectricityUnit - 399)*1.80)
+// }else if(ElectricityUnit>=600 ){
+//     console.log(BillAmount= 199*1.20 + 200*1.50 +200*1.80 + (ElectricityUnit - 599)*2)
 
-    if(BillAmount>400){
-      console.log(BillAmount = BillAmount + BillAmount*0.15)
-    }else{
-     console.log(BillAmount=BillAmount)
-    }
-}else{
-    console.log("Error")
-}
+//     if(BillAmount>400){
+//       console.log(BillAmount = BillAmount + BillAmount*0.15)
+//     }else{
+//      console.log(BillAmount=BillAmount)
+//     }
+// }else{
+//     console.log("Error")
+// }
 
 
-// 20. Write a program to accept a grade and declare the equivalent description :
-// Grade    Description
-// E    Excellent
-// V    Very Good
-// G    Good
-// A    Average
-// F    Fail
-// Test Data :
-// Input the grade :A
-// Expected Output :
-// You have chosen : Average
-/* Your answer here
-*/
-let grade = "A";
-switch(grade){
-    case "E":
-        console.log("You have chosen :Excellent")
-        break;
-    case "v":
-        console.log("You have chosen :Very Good")
-        break;
-    case "G":
-        console.log("You have chosen :Good")
-        break;
-    case "A":
-        console.log("You have chosen :Average")
-        break;
-    case "F":
-        console.log("You have chosen :Fail")
-        break;
-    default:
-        console.log("Invalid grade")
+// // 20. Write a program to accept a grade and declare the equivalent description :
+// // Grade    Description
+// // E    Excellent
+// // V    Very Good
+// // G    Good
+// // A    Average
+// // F    Fail
+// // Test Data :
+// // Input the grade :A
+// // Expected Output :
+// // You have chosen : Average
+// /* Your answer here
+// */
+// let grade = "A";
+// switch(grade){
+//     case "E":
+//         console.log("You have chosen :Excellent")
+//         break;
+//     case "v":
+//         console.log("You have chosen :Very Good")
+//         break;
+//     case "G":
+//         console.log("You have chosen :Good")
+//         break;
+//     case "A":
+//         console.log("You have chosen :Average")
+//         break;
+//     case "F":
+//         console.log("You have chosen :Fail")
+//         break;
+//     default:
+//         console.log("Invalid grade")
         
 
 
 
-}
-// 21. Write a program to read any day number in integer and display day name in the word.
-// Test Data :
-// 4
-// Expected Output :
-// Thursday
-/* Your answer here
-*/
-let day = "4" ;
-switch(day){
-    case "0":
-        console.log("Sunday")
-        break;
-    case "1":
-        console.log("Monday")
-        break;
-    case "2":
-        console.log("Tuesday")
-        break;
-    case "3":
-        console.log("Wednesday")
-        break;
-    case "4":
-        console.log("Thursday")
-        break;
-    case "5":
-        console.log("Friday")
-        break;
-    case "6":
-        console.log("Saturday")
-        break;
-    default:
-        console.log("No Day")
-}
-// 22. Write a program to read any digit, display in the word.
-// Test Data :
-// 4
-// Expected Output :
-// Four
-/* Your answer here
-*/
-let digit = 4
-switch(digit){
-    case 0:
-        console.log("Zero")
-        break;
-    case 1:
-        console.log("One")
-        break;
-    case 2:
-        console.log("Two")
-        break;
-    case 3:
-        console.log("Three")
-        break;
-     case 4:
-        console.log("Four")
-        break;
-     case 5:
-        console.log("Five")
-        break;
-    case 6:
-        console.log("Six")
-        break;
-    case 7:
-        console.log("Seven")
-        break;
-    case 8:
-        console.log("Eight")
-        break;
-    case 9:
-        console.log("Nine")
-        break;
-    default:
-        console.log("no digit")
-        break;
-}
-// 23. Write a program to read any Month Number in integer and display Month name in the word.
-// Test Data :
-// 4
-// Expected Output :
-// April
-/* Your answer here
+// }
+// // 21. Write a program to read any day number in integer and display day name in the word.
+// // Test Data :
+// // 4
+// // Expected Output :
+// // Thursday
+// /* Your answer here
+// */
+// let day = "4" ;
+// switch(day){
+//     case "0":
+//         console.log("Sunday")
+//         break;
+//     case "1":
+//         console.log("Monday")
+//         break;
+//     case "2":
+//         console.log("Tuesday")
+//         break;
+//     case "3":
+//         console.log("Wednesday")
+//         break;
+//     case "4":
+//         console.log("Thursday")
+//         break;
+//     case "5":
+//         console.log("Friday")
+//         break;
+//     case "6":
+//         console.log("Saturday")
+//         break;
+//     default:
+//         console.log("No Day")
+// }
+// // 22. Write a program to read any digit, display in the word.
+// // Test Data :
+// // 4
+// // Expected Output :
+// // Four
+// /* Your answer here
+// */
+// let digit = 4
+// switch(digit){
+//     case 0:
+//         console.log("Zero")
+//         break;
+//     case 1:
+//         console.log("One")
+//         break;
+//     case 2:
+//         console.log("Two")
+//         break;
+//     case 3:
+//         console.log("Three")
+//         break;
+//      case 4:
+//         console.log("Four")
+//         break;
+//      case 5:
+//         console.log("Five")
+//         break;
+//     case 6:
+//         console.log("Six")
+//         break;
+//     case 7:
+//         console.log("Seven")
+//         break;
+//     case 8:
+//         console.log("Eight")
+//         break;
+//     case 9:
+//         console.log("Nine")
+//         break;
+//     default:
+//         console.log("no digit")
+//         break;
+// }
+// // 23. Write a program to read any Month Number in integer and display Month name in the word.
+// // Test Data :
+// // 4
+// // Expected Output :
+// // April
+// /* Your answer here
 
-*/
-let Month = 4
-switch(Month){
-    case 1:
-        console.log("january")
-        break;
-    case 2:
-        console.log("February")
-        break;
-    case 3:
-        console.log("March")
-        break;
-     case 4:
-        console.log("April")
-        break;
-     case 5:
-        console.log("May")
-        break;
-    case 6:
-        console.log("june")
-        break;
-    case 7:
-        console.log("july")
-        break;
-    case 8:
-        console.log("August")
-        break;
-    case 9:
-        console.log("september")
-        break;
-    case 10:
-        console.log("Octber")
-            break; 
-    case 11:
-        console.log("November")
-        break; 
-    case 12:
-        console.log("December")
-        break;  
-    default:
-        console.log("no month")                                          
+// */
+// let Month = 4
+// switch(Month){
+//     case 1:
+//         console.log("january")
+//         break;
+//     case 2:
+//         console.log("February")
+//         break;
+//     case 3:
+//         console.log("March")
+//         break;
+//      case 4:
+//         console.log("April")
+//         break;
+//      case 5:
+//         console.log("May")
+//         break;
+//     case 6:
+//         console.log("june")
+//         break;
+//     case 7:
+//         console.log("july")
+//         break;
+//     case 8:
+//         console.log("August")
+//         break;
+//     case 9:
+//         console.log("september")
+//         break;
+//     case 10:
+//         console.log("Octber")
+//             break; 
+//     case 11:
+//         console.log("November")
+//         break; 
+//     case 12:
+//         console.log("December")
+//         break;  
+//     default:
+//         console.log("no month")                                          
+// }
+// // 24. Write a program to read any Month Number in integer and display the number of days for this month.
+// // Test Data :
+// // 7
+// // Expected Output :
+// // Month have 31 days
+//  Month = 7
+// switch(Month){
+//     case 1:
+//         console.log(" Month have 31 days")
+//         break;
+//     case 2:
+//         console.log(" Month have 28 days")
+//         break;
+//     case 3:
+//         console.log(" Month have 31 days")
+//         break;
+//      case 4:
+//         console.log(" Month have 30 days")
+//         break;
+//      case 5:
+//         console.log(" Month have 31 days")
+//         break;
+//     case 6:
+//         console.log(" Month have 30 days")
+//         break;
+//     case 7:
+//         console.log(" Month have 31 days")
+//         break;
+//     case 8:
+//         console.log(" Month have 31 days")
+//         break;
+//     case 9:
+//         console.log(" Month have 30 days")
+//         break;
+//     case 10:
+//         console.log(" Month have 31 days")
+//             break; 
+//     case 11:
+//         console.log(" Month have 30 days")
+//         break; 
+//     case 12:
+//         console.log(" Month have 31 days")
+//         break;  
+//     default:
+//         console.log("no day")                                          
+// }
+
+function b(x,y){
+    return x+y
+
 }
-// 24. Write a program to read any Month Number in integer and display the number of days for this month.
-// Test Data :
-// 7
-// Expected Output :
-// Month have 31 days
- Month = 7
-switch(Month){
-    case 1:
-        console.log(" Month have 31 days")
-        break;
-    case 2:
-        console.log(" Month have 28 days")
-        break;
-    case 3:
-        console.log(" Month have 31 days")
-        break;
-     case 4:
-        console.log(" Month have 30 days")
-        break;
-     case 5:
-        console.log(" Month have 31 days")
-        break;
-    case 6:
-        console.log(" Month have 30 days")
-        break;
-    case 7:
-        console.log(" Month have 31 days")
-        break;
-    case 8:
-        console.log(" Month have 31 days")
-        break;
-    case 9:
-        console.log(" Month have 30 days")
-        break;
-    case 10:
-        console.log(" Month have 31 days")
-            break; 
-    case 11:
-        console.log(" Month have 30 days")
-        break; 
-    case 12:
-        console.log(" Month have 31 days")
-        break;  
-    default:
-        console.log("no day")                                          
+function a(b){
+    return b(6,7)
 }
+console.log(a(b));

@@ -66,14 +66,14 @@
 
 // HIGHER ORDER FUNCTION
 
-// function a(x,y){
-//     return x+y
+function b(x,y){
+    return x+y
 
-// }
-// function b(anyFunction){
-//     return anyFunction(6,7)
-// }
-// console.log(b(a));
+}
+function a(b){
+    return b(6,7)
+}
+console.log(a(b));
 
 
 
@@ -84,8 +84,8 @@
 // setTimeout(a,2000)
 
 
-console.log("pooja")
-setTimeout(()=>{
-    console.log("inside");
-},0)
-console.log("vasant");
+// console.log("pooja")
+// setTimeout(()=>{
+//     console.log("inside");
+// },0)
+// console.log("vasant");
