@@ -88,17 +88,38 @@
 // console.log(nums.slice(-10))
 
 
-let leftnumbers = [1,2,3,4,5,1,2,5,7,8]
-let rightHand = []
+// let leftnumbers = [1,2,3,4,5,1,2,5,7,8]
+// let rightHand = []
 
-for(let i=0;i<leftnumbers;i++){
-    rightHand.includes(leftnumbers[i])
-}
-
-
+// for(let i=0;i<leftnumbers;i++){
+//     rightHand.includes(leftnumbers[i])
+// }
 
 
 
 
 
 
+
+
+// https://www.freecodecamp.org/news/javascript-async-await-tutorial-learn-callbacks-promises-async-await-by-making-icecream/
+// https://www.freecodecamp.org/news/javascript-async-await-tutorial-learn-callbacks-promises-async-await-by-making-icecream/
+
+
+
+
+let arr1 = [1,2,3]
+let arr2 = [4,5,6]
+ 
+let arr3=[]
+
+ for(let i=0;i<arr1.length;i++){
+     arr3[i]=arr1[i]
+ }
+ console.log(arr3)
+ for(let i=0;i<arr2.length;i++){
+     arr3[arr3.length] = arr2[i]
+     console.log(arr3)
+ }
+   
+   console.log(arr3)

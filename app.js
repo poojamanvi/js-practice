@@ -605,11 +605,21 @@ if(sell>buy){
 //         console.log("no day")                                          
 // }
 
-function b(x,y){
-    return x+y
+// function b(x,y){
+//     return x+y
 
-}
-function a(b){
-    return b(6,7)
-}
-console.log(a(b));
+// }
+// function a(b){
+//     return b(6,7)
+// }
+// console.log(a(b));
+
+let arr1 = [1,2,3]
+let arr2 = [4,5,6]
+ 
+let arr3=[]
+
+ for(let i=0;i<arr1.length;i++){
+     for(let j=0;j<arr2.length;j++)
+          console.log([i][j])
+ }
