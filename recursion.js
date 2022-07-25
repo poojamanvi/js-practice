@@ -19,3 +19,15 @@ function getSumOfRange(first,last) {
 }
 console.log(getSumOfRange(5,10))
  
+
+// power of number
+
+function getPower(num,exponential) {
+    if(num===0){
+        return 1
+    }
+
+    return num*getPower(num,exponential-1)
+    
+}
+console.log(getPower(2,4))
