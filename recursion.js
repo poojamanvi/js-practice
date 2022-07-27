@@ -31,3 +31,6 @@ function getPower(num,exponential) {
     
 }
 console.log(getPower(2,4))
+
+// flatten array
+let flattenedArray = []
